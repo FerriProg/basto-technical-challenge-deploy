@@ -171,7 +171,7 @@ export default function Home() {
           </table>
         </div>
       ) : (
-        <div>No hay animales para mostrar</div>
+        <div>Cargando/No hay animales para mostrar</div>
       )}
     </div>
   );
