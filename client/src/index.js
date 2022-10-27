@@ -9,7 +9,8 @@ import axios from 'axios';
 import dotenv from 'dotenv';
 dotenv.config();
 
-axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001';
+axios.defaults.baseURL =
+  'https://basto-tc-ferriprog.herokuapp.com' || 'http://localhost:3001';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
