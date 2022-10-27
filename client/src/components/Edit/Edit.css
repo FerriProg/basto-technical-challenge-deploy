@@ -1,0 +1,70 @@
+.createCard {
+  color: #dddddd;
+  width: 40rem;
+  height: auto;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(39, 51, 20, 0.4);
+  box-shadow: inset 8px 8px 24px 0px rgba(24, 59, 61, 0.7);
+}
+
+.rowCreate {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textAlign {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pushApart {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: left;
+  padding: 0.7rem;
+}
+
+.selectCss {
+  width: 16.9rem;
+  color: #023047;
+  font-weight: bold;
+}
+
+input {
+  color: #023047;
+  border-radius: 0.3rem;
+}
+
+input::placeholder {
+  color: #023047;
+}
+
+.errors {
+  color: #023047;
+  width: 320px;
+  word-wrap: break-word;
+  font-weight: bold;
+  padding-left: 0.7rem;
+}
+
+button {
+  color: #023047;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+label {
+  color: #14213d;
+  font-weight: bold;
+}
