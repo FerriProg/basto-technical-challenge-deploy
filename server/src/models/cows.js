@@ -8,7 +8,7 @@ const cowsSchema = new Schema(
     id_senasa: {
       type: String,
       match: [
-        /^[a-zA-Z0-9\S]{1,16}$/,
+        /^[a-zA-Z0-9\s]{1,16}$/,
         'Only letters and numbers allowed, max characters 16.',
       ],
       required: true,
@@ -35,7 +35,7 @@ const cowsSchema = new Schema(
     device_number: {
       type: String,
       match: [
-        /^[a-zA-Z0-9]{0,8}$/,
+        /^[a-zA-Z0-9\s]{0,8}$/,
         'Only letters and numbers allowed, max characters 8.',
       ],
       required: true,
